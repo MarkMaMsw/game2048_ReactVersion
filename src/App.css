@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+#state{
+  text-align: center;
+  font-size: 80px;
+}
+.container{
+  width: 787px;
+  height: 786px;
+  background-color: #F9F7ED;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.board{
+  width: 761px;
+  height: 760px;
+  border-radius: 10px;
+  background-color: #B3A396;
+  margin: 13px auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+.board>div{
+  width: 165px;
+  height: 165px;
+  box-sizing: border-box;
+  margin: 10px;
+  border-radius: 10px;
+  vertical-align: middle;
+  line-height: 165px;
+  text-align: center;
+  font-weight: bold;
+}
+.board>div:nth-child(-n+4){
+  margin-top: 20px;
+}
+.board>div:nth-child(4n+1){
+  margin-left: 20px;
+}
+.board>div:nth-child(4n+4){
+  margin-right: 20px;
+}
+.board>div:nth-last-child(-n+4){
+  margin-bottom: 20px;
+}
+.empty{
+  background-color: #C6B9AB;
+}
+.two{
+  background-color: #EBE0D5;
+  color: #6C635A;
+  font-size: 80px;
+}
+.four{
+  background-color: #EADCC1;
+  color: #6C635A;
+  font-size: 80px;
+}
+.eight{
+  background-color: #F0A86E;
+  color: #F8F5F0;
+  font-size: 80px;
+}
+.sixteen{
+  background-color: #F38A58;
+  color: #F8F5F0;
+  font-size: 80px;
+}
+.three-two{
+  background-color: #F57155;
+  color: #F8F5F0;
+  font-size: 80px;
+}
+.six-four{
+  background-color: #F55334;
+  color: #F8F5F0;
+  font-size: 80px;
+}
+.one-two-eight{
+  background-color: #EAC867;
+  color: #F8F5F0;
+  font-size: 65px;
+}
+.two-five-six{
+  background-color: #EAC557;
+  color: #F8F5F0;
+  font-size: 65px;
+}
+.five-one-two{
+  background-color: #EAC146;
+  color: #F8F5F0;
+  font-size: 65px;
+}
+.one-zero-two-four{
+  background-color: #EABD37;
+  color: #F8F5F0;
+  font-size: 60px;
+}
+.two-zero-four-eight{
+  background-color: #EABA28;
+  color: #F8F5F0;
+  font-size: 60px;
+}
